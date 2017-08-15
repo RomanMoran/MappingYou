@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/ic_friends_tabbar_disabled"
+        title="@string/friends" />
+    <tab
+        id="@+id/tab_sms"
+        icon="@drawable/ic_message_tabbar_disabled"
+        title="@string/sms" />
+    <tab
+        id="@+id/tab_maps"
+        icon="@drawable/ic_map_tabbar_disabled"
+        title="@string/maps" />
+    <tab
+        id="@+id/tab_contact"
+        icon="@drawable/ic_contacts_tabbar_disabled"
+        title="@string/contacts" />
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/ic_profile_tabbar_disabled"
+        title="@string/profile"
+        />
+</tabs>

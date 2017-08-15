@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_layout"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/main_marker"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="13dp"
+        android:layout_width="@dimen/custom_event_img_width"
+        android:layout_height="@dimen/custom_event_img_height"
+        app:riv_corner_radius="9dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/background_marker"
+        android:src="@drawable/ic_pin_event"
+        android:layout_width="@dimen/custom_event_frame_width"
+        android:layout_height="@dimen/custom_event_frame_height" />
+
+</FrameLayout>

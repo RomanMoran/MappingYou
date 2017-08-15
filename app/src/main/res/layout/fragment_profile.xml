@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:src="@drawable/ic_man_user_image_stub"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:maxHeight="230dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:focusable="false"
+            />
+        <TextView
+            android:id="@+id/tvNameProfile"
+            android:text="@string/default_text_noname"
+            android:background="@color/colorSemiTransparent"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="40dp" />
+    </FrameLayout>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/tvSettingVisibilityOnMap"
+            android:gravity="end"
+            android:text="@string/setting_visibility_on_map"
+            android:textAllCaps="true"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorTheme"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:id="@+id/tvServiceHelp"
+            android:paddingTop="10dp"
+            android:gravity="end"
+            android:text="@string/service_help"
+            android:textAllCaps="true"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorTheme"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:id="@+id/tvAboutMe"
+            android:layout_marginStart="@dimen/bb_default_elevation"
+            android:text="@string/about_me"
+            android:padding="@dimen/half_default_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_about_me"
+            android:drawablePadding="10dp"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fragment_profile_tvs"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/events"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:padding="@dimen/default_padding"
+                android:textAllCaps="true"
+                android:textColor="@color/colorTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/password"
+                android:gravity="center_horizontal"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:padding="@dimen/default_padding"
+                android:textColor="@color/colorTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvExitProfile"
+                android:text="@string/exit"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:padding="@dimen/default_padding"
+                android:textAllCaps="true"
+                android:textColor="@color/colorTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorSemiTransparent" />
+        <TextView
+            android:id="@+id/tvDeleteAccount"
+            android:text="@string/delete_account"
+            android:padding="@dimen/default_padding"
+            android:textAllCaps="true"
+            android:textColor="@color/vk_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

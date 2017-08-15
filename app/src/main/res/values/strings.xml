@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">MappingYou</string>
+    <string name="enter">Вход</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="et_login">Номер телефона или E-mail</string>
+    <string name="et_password">Пароль</string>
+    <string name="btn_enter">Войти</string>
+    <string name="tv_registration">Регистрация</string>
+    <string name="agree_with_agreement">Я согласен с пользовательским соглашением</string>
+    <string name="connect_with_us">Связаться с нами</string>
+    <integer name="com_vk_sdk_AppId">6121915</integer>
+    <string name="facebook_app_id">1894871070772003</string>
+    <string name="fb_login_protocol_scheme">fb1894871070772003</string>
+    <string name="fb_secret">ec55cb6ebd1cb346f5621bddc0b828f9</string>
+    <string name="send_code">Выслать проверочный код</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Email</string>
+    <string name="input_number">Номер телефона</string>
+    <string name="send_code_again">Выслать код повторно:</string>
+    <string name="confirmation_code">Подтвердить код</string>
+    <string name="name">Имя</string>
+    <string name="again_password">Повторите пароль</string>
+    <string name="go_to_registration">Зарегестрироваться</string>
+    <string name="fragment_login_password_hint">3dp</string>
+    <string name="error_empty">Введите значение</string>
+    <string name="incorrect_email">Введите корректный адрес</string>
+    <string name="incorrect_phone">Введите корректный номер</string>
+    <string name="error">Ошибка</string>
+    <string name="incorrect_code">Неправильно введен код подтверждения</string>
+    <string name="empty_name">Введите имя пользователя</string>
+    <string name="dont_much_password">Пароли не совпадают</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="empty_field">Введено некорректное поле</string>
+    <string name="empty_password">Введите пароль</string>
+    <string name="about_me">Обо мне</string>
+    <string name="service_help">Служба поддержки</string>
+    <string name="setting_visibility_on_map">Настройки видимости на карте</string>
+    <string name="default_text_noname">NoName</string>
+    <string name="events">События</string>
+    <string name="exit">Выход</string>
+    <string name="delete_account">Удалить аккаунт</string>
+    <string name="contacts">Контакты</string>
+    <string name="sms">Сообщения</string>
+    <string name="friends">Друзья</string>
+    <string name="maps">Карты</string>
+    <string name="profile">Профиль</string>
+    <string name="valid_password">33</string>
+    <string name="valid_number">13232323478</string>
+    <string name="preference_file_key">shared_preference</string>
+    <string name="map_preference">map_preference</string>
+    <string name="attention">Внимание</string>
+    <string name="internet_error">Проверьте подключение к интернету</string>
+    <string name="remove_account">Вы уверены что хотите удалить аккаунт ?</string>
+    <string name="check_permission_location">Необходимо включить геолокацию</string>
+    <string name="ok">Да</string>
+    <string name="no_email">noemail</string>
+    <string name="gps_permission">\"Your GPS seems to be disabled, do you want to enable it?\"</string>
+    <string name="yes">Ок</string>
+    <string name="no">Нет</string>
+    <string name="necessary_geoloc">Необходимо включить геолокацию</string>
+    <string name="success">Разрешен доступ к геолокации</string>
+
+    <string name="fb_key_fields">fields</string>
+    <string name="necessary_fields_fb">id,name,birthday,gender,email</string>
+    <string-array name="maps_views">
+        <item>Друзья</item>
+        <item>Люди</item>
+        <item>События</item>
+    </string-array>
+</resources>

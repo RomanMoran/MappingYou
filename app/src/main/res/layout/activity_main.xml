@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.login.LoginActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:paddingTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorTheme"
+            android:text="@string/enter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login" />
+
+        <EditText
+            android:id="@+id/etLogin"
+            android:theme="@style/ThemeStyle"
+            android:hint="@string/et_login"
+            android:text="@string/valid_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etPassword"
+                android:inputType="textPassword"
+                android:hint="@string/et_password"
+                android:theme="@style/ThemeStyle"
+                android:text="@string/valid_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/imgForgot"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/etPassword"
+                android:src="@drawable/ic_forgot_password"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnEnter"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_bg_login"
+            android:text="@string/btn_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvRegister"
+            android:text="@string/tv_registration"
+            android:paddingTop="20dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorTheme"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btnVk"
+            android:background="@drawable/btn_vk"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_padding" />
+
+        <Button
+            android:id="@+id/btnFb"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:text="@string/agree_with_agreement"
+            android:layout_gravity="center_horizontal"
+            android:theme="@style/ThemeStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvConnect"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/connect_with_us"
+            android:textColor="@color/colorTheme"
+            android:background="@drawable/underline"
+            android:paddingBottom="@dimen/cpv_default_thickness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
